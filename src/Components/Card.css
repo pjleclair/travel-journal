@@ -69,5 +69,6 @@ p {
 
     font-weight: 400;
     color: #2B283A;
-    height: 45px;
+    max-height: 60px;
+    overflow: scroll;
 }
