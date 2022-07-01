@@ -2,3 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  height: 55px;
+}
+
+.nav--icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 5px;
+}
