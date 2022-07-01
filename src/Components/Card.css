@@ -1,5 +1,12 @@
 .card {
+    display: flex;
     margin: 18px 65px 15px;
+}
+
+hr {
+    width: 475px;
+    margin-left: 40px;
+    border: 1px solid #F5F5F5;
 }
 
 .card--img {
@@ -7,4 +14,60 @@
     height: 165px;
     margin-bottom: 18px;
     border-radius: 5px;
+}
+
+.card--pin {
+    height: 10px;
+    width: 7px;
+    margin-left: 20px;
+}
+
+.card--line-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+h3, a, p, h2, h1#card {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-left: 5px;
+}
+
+h3 {
+    font-weight: 400;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+a {
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+h1#card {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+h2 {
+    font-weight: 700;
+    color: #2B283A;
+}
+
+h2, p, h1#card {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+p {
+
+    font-weight: 400;
+    color: #2B283A;
+    height: 45px;
 }
